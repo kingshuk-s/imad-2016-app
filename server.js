@@ -30,6 +30,9 @@ app.get('/ui/me.png', function(req,res) {
 app.get('/ui/cool.jpg', function(req,res) {
  res.sendFile(path.join(__dirname, 'ui', 'cool.jpg'));
 });
+app.get('/ui/main.js', function(req,res) {
+ res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
 app.get('/ui/portfolio.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'portfolio.html'));
 });
