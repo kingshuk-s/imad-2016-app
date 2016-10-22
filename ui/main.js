@@ -9,5 +9,4 @@ function moveleft(){
 }
 img.onclick=function(){
     var interval= setInterval(moveleft,20);
-    img.style.marginright='200px';
 };
