@@ -4,8 +4,8 @@ console.log('Loaded!');
 var img = document.getElementById('me');
 var marginright=0;
 function moveleft(){
-    marginright= marginright + 10;
-    img.style.marginright= marginright + 'px' ;
+    marginright = marginright + 10;
+    img.style.marginright = marginright + 'px' ;
 }
 img.onclick = function(){
     var interval= setInterval(moveleft,20);
