@@ -10,7 +10,7 @@ function moveleft(){
 img.onclick = function(){
     var interval= setInterval(moveleft,20);
 };
-var img = document.getElementById('me');
+var img = document.getElementById('madi');
 img.onclick = function(){
     img.style.marginleft='100px';
 };
